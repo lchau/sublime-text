@@ -6,21 +6,28 @@
 	"draw_minimap_border": true,
 	"draw_white_space": "selection",
 	"fade_fold_buttons": true,
+
+	// fonts
 	"font_face": "ProggySquareTTSZ",
-	"font_options":
-	[
+	"font_options": [
 		"no_antialias"
 	],
 	"font_size": 12,
+
+	// aesthetic tweaks
 	"highlight_line": true,
 	"highlight_modified_tabs": true,
-	"ignored_packages":
-	[
+
+	// whitespace
+	"tab_size": 4,
+	"translate_tabs_to_spaces": true,
+	"trim_trailing_white_space_on_save": true,
+
+	"ignored_packages": [
 		"Vintage"
 	],
+
+	// custom theme
 	"soda_classic_tabs": true,
-	"tab_size": 4,
-	"theme": "Soda Dark.sublime-theme",
-	"translate_tabs_to_spaces": true,
-	"trim_trailing_white_space_on_save": true
+	"theme": "Soda Dark.sublime-theme"
 }
